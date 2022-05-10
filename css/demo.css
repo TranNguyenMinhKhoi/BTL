@@ -1,0 +1,166 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    float: center;
+}
+.anhB1 {
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 3000px;
+}
+.wrapper > header {
+    width: 100%;
+    height: 50px;
+}
+.wrapper > header > a> img {
+    float: center;
+    width: 250px;
+    
+}
+.wrapper > header > .nav.navbar-nav.navbar-right {
+    float: center;
+    margin-top: 30px;
+}
+.wrapper > header > .nav.navbar-nav.navbar-right > li:nth-child(1),
+.wrapper > header > .nav.navbar-nav.navbar-right > li:nth-child(2),
+.wrapper > header > .nav.navbar-nav.navbar-right > li:nth-child(3),
+.wrapper > header > .nav.navbar-nav.navbar-right > li:nth-child(4) {
+    width: 90px;
+}
+.anhH4 {
+    width: 50px;
+}
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 500px;
+    right: 90px;
+}
+/* phần sidebar */
+.sidebar{
+    width: 15%;
+    float: center;
+    position: absolute; 
+    top: 100px;
+    right: 0px;
+    background-color: black;
+    display: none;
+}
+.sidebar ul li {
+    padding: 10px;
+    border-bottom: 2px solid lightskyblue;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.tongB{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    float: center;
+}
+#account {
+    text-align: center;
+    
+}
+ #btnSignUp ,#btnSignIn{
+    background-color: black;
+    color: aliceblue;
+}
+.modal-body button{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+}
+.modal-header h2{
+    text-align: center;
+}
+
+
+/* phần tạo account */
+.tongB .content form {
+    text-align: center;
+}
+.radio-buttons {
+    float: none;
+}
+.submit {
+    text-align:center;
+}
+input[type=submit],
+       input[type=reset] {
+           clear: both;
+           margin: auto;
+           padding: .1em .2em;
+            border: 1px solid hsla(0,0%,0% .3);
+           -moz-border-radius: 5px;
+           -webkit-border-radius: 5px;
+           border-radius: 5px;
+           background-color: black;
+           color: #eee;
+           text-shadow:0 -1px 0 hsla(0,0%,0% .8); 
+           font-size:18px;
+       }
+       span {
+           color: black;
+           font-size: 14px;
+       }
+       /* content nghesi */
+       .artistBS div h1 {
+           font-style:  inherit;
+           margin-left: 30px;
+       }
+       .artistBS {
+        font-style:  inherit;
+        font-size: 20px;
+        margin-left: 30px;
+        line-height: 40px;
+    }
+    .artistBS img{
+        width: 700px;
+    }
+
+    .artistBS {
+        width: 100%;
+    }
+    .artistBS div  {
+        float: left;
+        width: 45%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #summary {
+        font-size: 40px;
+    
+    }
+    .artistBS img {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+        height: 900px;
+    }
+        /* team create */
+    .teamcreate{
+        width: 100%;
+    }
+    .teamcreate  p,b{
+        font-style:  inherit;
+        margin-left: 50px;
+        
+    }
+    .teamcreate img{
+        float: right;
+       width: 304px;
+       height: 236px;
+       margin-right: 5%;
+
+    }

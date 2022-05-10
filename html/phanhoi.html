@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phản hồi</title>
+    <style>
+         *{
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: azure;
+            width: 1200px;
+            border: 1px black;
+            color: black;
+        }
+
+        header{
+            height: 100px;
+            background-color: lightblue;
+            position: relative;
+            color: white;
+        }
+
+        header img{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        header h1{
+            position: absolute;
+            top: 20px;
+            left: 80px;
+        }
+
+        header p{
+            position: absolute;
+            bottom: 20px;
+            left: 80px;
+        }
+
+        header form{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+      .menu-parent{
+            position: absolute;
+            right: 10px;
+            bottom: 0;
+            display: flex;
+            list-style: none;
+        }
+        
+        .menu-parent a{
+            color: white;
+            padding: 10px 20px;
+            display: block;
+            text-decoration: none;
+            background-color: black;
+            margin-left: 10px;
+        }
+
+        .menu-parent a:hover{
+            color: lightblue;
+        }
+
+        .menu-child{
+            background-color: black;
+            display: none;
+        }
+
+        .menu-parent li:hover .menu-child{
+            padding: 5px 5px;
+            display: block;
+            position: absolute;
+            margin-left: 10px;
+            list-style: none;
+        }
+      h2 {
+          font-size: 46px;
+      }
+      p1 {
+          font-size: 32px;
+      }
+      p2 {
+          font-size: 32px;
+      }
+      p3 {
+          font-size: 40px;
+      }
+      p4 {
+          font-size: 40px;
+      }
+      section{
+          width: 70%;
+          float: left;
+          padding: 80px;
+          height: 580px;
+      }
+      aside{
+          width: 30%;
+          float: right;
+          padding: 80px;
+          height: 420px;
+      }
+      footer{
+          clear: both;
+          background-color: #294d79;
+          padding: 5px;
+      }
+  </style>
+</head>
+<body>
+    <header>
+        <a href="trangchu.html"><img src="../img/logo.png" alt=""></a>
+        <h1>BaiTapLon Store</h1>
+        <p>...Hãy chọn giá đúng!</p>
+        <form action="">
+            <input type="search" id="txtSearch" placeholder="Nhập vào đây..." size="30">
+            <button>Tìm kiếm</button>    
+        </form>
+        <ul class="menu-parent">
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li><a href="">Danh mục</a>
+                <ul class="menu-child">
+                    <li><a href="tainghe.html">Tai nghe</a></li>
+                    <li><a href="daysac.html">Dây sạc</a></li>
+                    <li><a href="sacduphong.html">Sạc dự phòng</a></li>
+                    <li><a href="oplung.html">Ốp lưng</a></li>
+                </ul>
+            </li>
+            <li><a href="phanhoi.html">Phản hồi</a></li>
+        </ul>
+    </header>
+    <h2><i>Phản hồi</i></h2>
+    <section>
+        <label for="txtMessage"><h1><i>Nhập phản hồi của bạn vào đây:</i></h1></label><br>
+        <textarea id="txtMessage" cols="90" rows="20"></textarea>
+        <div class="form-row">
+            <button type="submit">Gửi phản hồi</button>
+        </div>
+    </section>
+     
+    <footer>
+        <p> 
+            <span style="color: white;">Địa chỉ: 12 Nguyễn Văn Bảo, Q.Gò Vấp, TP.Hồ Chí Minh</span> 
+        </p>
+        <p>
+            <span style="color: white;">Liên hệ: 069696969</span>
+        </p>
+        <p>
+            <span style="color: white;">Fax: 0293.9940.954</span>
+        </p>
+        <p>
+            <span style="color: white;">Thanh toán: <img src="../img/thanhtoan.png" alt=""></span>
+        </p>
+    </footer>
+</body>
+</html>
